@@ -1,3 +1,5 @@
+#------------------This code is  use to divide the window into three frames----------------
+
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QFormLayout, QSplitter,
     QListWidget, QGraphicsView, QWidget, QLabel, QPushButton, QLineEdit, QFrame
@@ -117,3 +119,5 @@ if __name__ == "__main__":
     window = AdvancedClickCraftApp()
     window.show()
     app.exec_()
+
+#--------------------------
